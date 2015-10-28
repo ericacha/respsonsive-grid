@@ -1,0 +1,464 @@
+
+.oneFifthFirst {
+	width: 19%;
+	margin-right: 1%;
+    float: left;
+}
+
+.fourFifthsLast {
+	width: 80%;
+	float: left;
+}
+
+
+.oneSixth {
+	width: 15%;
+	float: left;
+	margin-right:1%;
+	margin-bottom:10px;
+}
+
+.oneSixthOf5-6 {
+	width: 15%;
+	float: left;
+	margin-right:1%;
+	margin-bottom:10px;
+}
+
+
+.oneSixthMiddle2 {
+	width: 15%;
+	float: left;
+	margin: 0px 1% 10px 1%;
+
+}
+
+
+
+.oneSixthMiddle3 {
+	width: 15%;
+	float: left;
+	margin: 0px 1% 10px 1%;
+}
+
+
+.oneSixthMiddle4 {
+	width: 15%;
+	float: left;
+	margin: 0px 1% 10px 1%;
+}
+
+.oneSixthMiddle5 {
+	width: 15%;
+	float: left;
+	margin: 0px 1% 10px 1%;
+}
+
+.oneSixthLast {
+	width: 15%;
+	float: left;
+	margin-left:1%;
+	margin-bottom:10px;
+}
+
+.oneSixthOf5-6Last{
+	width: 15%;
+	float: left;
+	margin-left:1%;
+	margin-bottom:10px;
+}
+
+.fiveSixth {
+	width: 83%;
+	float: left;
+	margin-right:1%;
+	margin-bottom:10px;
+}
+
+.fiveSixthLast {
+	width: 83%;
+	float: left;
+	margin-left:1%;
+	margin-bottom:10px;
+}
+
+
+
+.oneFourth {
+	width: 24%;
+	float: left;
+	margin-right:1%;
+}
+
+.oneFourthLast {
+	width: 24%;
+	float: right;
+	margin-left: 1%;
+}
+
+
+.threeFourths {
+    width: 74%;
+    float: left;
+    margin-left: 1%;
+}
+.threeFourthsLast {
+	width: 74%;
+	float: left;
+	margin-left:1%;
+}
+.oneHalf {
+	width: 49%;
+	float: left;
+	margin-right: 1%;
+}
+.oneHalfLast {
+	width: 49%;
+	float: right;
+	margin-left: 1%;
+}
+
+.oneThird {
+	width: 32%;
+	float: left;
+	margin: 0 1% 10px 0;
+
+}
+.oneThirdMiddle {
+	width: 32%;
+	float: left;
+	margin: 0 0 10px 1%;
+
+}
+
+.oneThirdLast {
+	width: 32%;
+	float: right;
+	margin: 0 0 10px 1%;
+
+}
+
+
+.twoThirds {
+	width: 66%;
+	float: left;
+	margin: 0 1% 10px 0;
+}
+.twoThirdsLast {
+	width: 66%;
+	float:right;
+	margin: 0 0 10px 1%;
+}
+
+
+.oneFourthMiddle2 {
+width: 23%;
+float: left;
+margin: 0px 1% 0 1%;
+}
+
+.oneFourthMiddle3 {
+width: 23%;
+float: left;
+margin: 0px 1% 0 1%;
+}
+
+.threeSixth {
+width: 49%;
+float: left;
+margin-right: 1%;
+}
+
+.threeSixthLast {
+width: 49%;
+float:right;
+margin-left: 1%;
+}
+
+
+
+
+
+/****** screen at 768px ******/
+
+@media (max-width: 768px) {
+
+
+	.oneSixthOf5-6 {
+	width: 100%;
+	float: left;
+	margin: 0 0 10px;
+	}
+
+	.oneSixthOf5-6Last {
+	width: 100%;
+	float: left;
+	margin: 0 0 10px;
+	}
+
+	.threeSixth {
+	width: 100%;
+	float: left;
+	margin: 0 0 10px;
+	}
+
+	.threeSixthLast {
+	width: 100%;
+	float: left;
+	margin: 0 0 10px;
+	}
+
+	.fiveSixth {
+	width: 100%;
+	float: left;
+	margin: 0 0 10px;
+	}
+
+	.fiveSixthLast {
+	width: 100%;
+	float: left;
+	margin: 0 0 10px;
+
+	}
+
+
+
+	.middle {
+	border-left: none;
+	border-right: none;
+	}
+
+	/*.oneFourth {
+	margin-bottom: 40px;
+	}*/
+
+
+	.oneThird img, .oneThirdMiddle img, .oneThirdLast img {
+	display: block;
+	margin: 0 auto;
+	}
+
+	
+
+	.oneHalf:last-child {
+	margin-top: 20px;
+	}
+
+	.oneFourth, .oneFourthLast,.threeFourthsLast {
+	width:49%;
+	margin-bottom:10px;
+
+	}
+
+
+	.oneFourthMiddle2 {
+	width:49%;
+	margin-right:0;
+	margin-bottom:10px;
+
+	}
+
+	.oneFourthMiddle3  {
+	width:49%;
+	margin-left:0;
+	clear:both;
+	margin-bottom:10px;
+	}
+
+	.oneSixth, .oneSixthLast {
+	width:32%;
+	margin-bottom:10px;
+	}
+
+
+	.oneSixthMiddle2, .oneSixthMiddle5 {
+	width:32%;
+	margin-bottom:10px;
+	}
+
+	.oneSixthMiddle3 {
+	width:32%;
+	margin-right:0;
+	margin-bottom:10px;
+
+	}
+
+
+	.oneSixthMiddle4  {
+	width:32%;
+	margin-left:0;
+
+	margin-bottom:10px;
+	}
+
+
+}
+
+/****** screen at 700px *******/
+
+@media (max-width: 700px) {
+
+	.oneThird {
+		width:100%;
+		margin: 0 0 10px 0;
+		display:block;
+		}
+
+	.oneThirdMiddle {
+		width:100%;
+		margin: 0 0 10px 0;
+		display:block;
+
+		}
+
+	.oneThirdLast {
+		width:100%;
+		margin: 0 0 10px 0;
+		display:block;
+		}
+
+	.twoThirds {
+		width:100%;
+		margin: 0 0 10px 0;
+		display:block;
+		margin-right:0;
+		}
+
+
+}
+
+
+
+
+/******* screen at 583px ******/
+
+@media (max-width: 583px) {
+	.oneFifthFirst {
+		display: none;
+	}
+
+	.fourFifthsLast {
+		width: 100%;
+	}
+}
+
+
+
+/******* screen at 480px ******/
+
+@media (max-width: 480px) {
+
+
+	.oneHalf {
+		width:100%;
+		margin: 0 0 10px 0;
+		}
+
+	.oneHalfLast {
+		width:100%;
+		margin: 0 0 10px 0;
+		}
+
+	.oneSixth {
+		width:49%;
+		margin:0 1% 10px 0;
+		}
+	.oneSixthMiddle2 {
+		width:49%;
+		margin:0 0 10px 1%;
+		}
+
+	.oneSixthMiddle3 {
+		width:49%;
+		margin:0 1% 10px 0;
+		}
+
+	.oneSixthMiddle4 {
+		width:49%;
+		margin:0 0 10px 1%;
+		}
+
+	.oneSixthMiddle5 {
+		width:49%;
+		margin:0 1% 10px 0;
+		}
+
+	.oneSixthLast {
+		width:49%;
+		margin:0 0 10px 1%;
+		}
+
+	.oneFourth {
+		width:100%;
+		margin: 0 0 10px 0;
+		}
+	.oneFourthLast {
+		width:100%;
+		margin: 0 0 10px 0;
+		}
+
+		.oneThird {
+		width:100%;
+		margin: 0 0 10px 0;
+		}
+
+	.oneThirdMiddle {
+		width:100%;
+		margin: 0 0 10px 0;
+		}
+
+	.oneThirdLast {
+		width:100%;
+		margin: 0 0 10px 0;
+		}
+
+
+
+	.twoThirds {
+		width:100%;
+		margin: 0 0 10px 0;
+		}
+
+	.twoThirdsLast {
+		width:100%;
+		margin: 0 0 10px 0;
+		}
+
+	.oneFourthMiddle2 {
+		width:100%;
+		margin: 0 0 10px 0;
+		}
+
+	.oneFourthMiddle3 {
+		width:100%;
+		margin: 0 0 10px 0;
+		}
+
+	.threeFourthsLast {
+		width:100%;
+		margin: 0 0 10px 0;
+		}
+
+	.threeSixth {
+		width:100%;
+		margin: 0 0 10px 0;
+		}
+
+	.threeSixthLast {
+		width:100%;
+		margin: 0 0 10px 0;
+		}
+
+	.fiveSixth {
+		width:100%;
+		margin: 0 0 10px 0;
+		}
+
+	 .fiveSixthLast {
+		width:100%;
+		margin: 0 0 10px 0;
+		}
+
+
+
+}
