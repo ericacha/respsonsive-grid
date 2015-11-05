@@ -1,4 +1,19 @@
+body {
+  width:1200px;
+  margin:15px auto;
+}
 
+
+
+body img {
+  width:100%;
+
+}
+
+.clear {
+  padding-bottom:30px;
+
+}
 .oneFifthFirst {
 	width: 19%;
 	margin-right: 1%;
@@ -238,7 +253,7 @@ margin-left: 1%;
 	margin: 0 auto;
 	}
 
-	
+
 
 	.oneHalf:last-child {
 	margin-top: 20px;
