@@ -1,6 +1,6 @@
 body {
-  width:1200px;
-  margin:15px auto;
+  background-color: #000;
+  padding:20px 15px 20px 15px;
 }
 
 
@@ -125,12 +125,13 @@ body img {
 .oneHalf {
 	width: 49%;
 	float: left;
-	margin-right: 1%;
+		margin: 0 1% 10px 0;
+
 }
 .oneHalfLast {
 	width: 49%;
 	float: right;
-	margin-left: 1%;
+		margin: 0 0 10px 1%;
 }
 
 .oneThird {
@@ -202,7 +203,7 @@ margin-left: 1%;
 	.oneSixthOf5-6 {
 	width: 100%;
 	float: left;
-	margin: 0 0 10px;
+	margin: 0 0 10px 0;
 	}
 
 	.oneSixthOf5-6Last {
@@ -336,9 +337,16 @@ margin-left: 1%;
 		width:100%;
 		margin: 0 0 10px 0;
 		display:block;
-		margin-right:0;
+
 		}
 
+    .twoThirdsLast {
+      width:100%;
+  		margin: 0 0 10px 0;
+  		display:block;
+
+
+    }
 
 }
 
