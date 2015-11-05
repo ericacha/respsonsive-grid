@@ -10,6 +10,11 @@ body img {
 
 }
 
+h1 {
+  color:#fff;
+  text-align: center;
+  text-decoration: underline;
+}
 .clear {
   padding-bottom:30px;
 
@@ -188,7 +193,8 @@ margin-right: 1%;
 .threeSixthLast {
 width: 49%;
 float:right;
-margin-left: 1%;
+margin:0 0 10px 1%;
+
 }
 
 
